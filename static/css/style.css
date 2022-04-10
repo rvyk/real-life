@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #111111 !important;
+
+}
+.form-milosc:checked{
+    border-color: red !important;
+    background-color: red !important;
+}
+.form-pieniadze:checked{
+    border-color: green !important;
+    background-color: green !important;
+}
+.znajomi{
+    font-family: "Poppins", sans-serif;
+    color: black !important;
+    letter-spacing: 1px;
+}
+.milosc {
+    font-family: "Poppins", sans-serif;
+    color: black !important;
+    letter-spacing: 1px;
+}
+.pieniadze {
+    font-family: "Poppins", sans-serif;
+    color: black !important;
+    letter-spacing: 1px;
+}
+.form-switch{
+    width: 100px !important;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.container{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px !important;
+    width: 200px;
+    float: left;
+    background-color: white;
+    border-radius: 50px;
+}
+span{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
